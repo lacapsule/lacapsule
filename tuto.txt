@@ -1,0 +1,162 @@
+﻿Création de méthodes fantaisistes de menu de sélection en mode TUI en Bash pur (remplacement de curses / ncurses)
+
+
+Vous en avez assez de voir du texte défiler dans votre terminal ? Bash, aussi simple qu'il soit, vous permet également de créer des menus en mode TUI ! 
+ Il n'est pas facile de construire un menu sous Bash, car il lui manque beaucoup de fonctions que certains langages avancés possèdent. De plus, tout le monde essaiera de vous décourager : "Utilisez ncurses ou dialog - c'est la seule solution". Certes, c'est beaucoup plus rapide, plus court, plus facile, mais ce n’est pas du pur Bash ! 
+Maintenant, vous allez demander : "Pourquoi s’embêter ? Il suffit d'utiliser une bibliothèque et de créer des menus !" 
+Mais il y a au moins deux raisons :
+
+- Faire des programmes jolis mais ne dépendant pas de certaines bibliothèques externes.
+- Il est parfois difficile d'installer ou même de compiler toutes les bibliothèques dont vous avez besoin, en particulier sur certaines petites distributions Linux.
+
+Pour pouvoir faire de la programmation fantaisiste sous Bash, vous devrez utiliser certaines fonctions qui ressemblent presque à un code binaire. Il n'y a rien de très compliqué là-dedans, il faut juste s'assurer de taper tout ce code correctement. Si vous cherchez des explications détaillées sur les fonctions ci-dessous, veuillez consulter l'article du Linux Journal intitulé "The power of echo command : Méthodes d'affichage de la console Bash et quelques fonctions utiles de type tput'.
+
+Pour commencer, attardons-nous sur les quelques fonctions suivantes.
+Placez les fonctions ci-dessous (ou celles dont vous avez besoin) au début de votre script bash et vous êtes prêt à avancer.
+
+#!/bin/bash
+e='echo -en'                                     # Pour raccourcir la commande ‘echo’
+   ESC=$( $e "\033")                             # variable contenant une valeur échappée 
+ CLEAR(){ $e "\033c";}                           # Vider le terminal
+ CIVIS(){ $e "\033[?25l";}                       # Cacher le curseur
+ CNORM(){ $e "\033[?12l\033[?25h";}              # Afficher le curseur
+  TPUT(){ $e "\033[${1};${2}H";}                 # Mise en place dans le terminal (position x et y)
+COLPUT(){ $e "\033[${1}G";}                      # Met le texte sur la même ligne que la colonne spécifiée
+  MARK(){ $e "\033[7m";}                         # Sélectionner le texte de la ligne en cours
+UNMARK(){ $e "\033[27m";}                        # Normaliser le texte de la ligne courante
+  DRAW(){ $e "\033%@";echo -en "\033(0";}        # Passer en mode "poubelle" pour pouvoir dessiner
+ WRITE(){ $e "\033(B";}                          # Revenir à la normale (reset)
+  BLUE(){ $e "\033c\033[0;1m\033[37;44m\033[J";} # Effacer l'écran, mettre le fond en bleu et la police en blanc
+Le défi :
+Pour ne pas compliquer les choses, j'aimerais avoir un simple script qui réagisse aux touches fléchées. Mais comment convaincre les flèches de produire certaines actions dans la console Bash ? 
+
+Ce sont les touches qui permettent de se déplacer sur l'écran (principalement en avant et en arrière). 
+
+Une expérience très simple : 
+Si je tape simplement 'read' à l'invite de commande Bash et que j'appuie sur la touche 'entée', le curseur attendra que je saisisse quelque chose. 
+Si je tape des lettres, elles apparaîtront comme des caractères normaux, mais si j'appuie sur une des touches fléchées, j'obtiendrai plus d'un caractère pour chaque touche fléchée appuyée :
+
+Flèche du haut :     	^[[A
+Flèche du bas :   	^[[B
+Flèche de gauche :   	^[[D
+Flèche de droite :  	^[[C
+Les choses ne deviennent pas plus faciles lorsque vous découvrez que les deux premiers caractères '^[' sont en fait un seul caractère qui représente ESCAPE. Comment intercepter cela ?
+La commande 'read', qui est une commande interne de Bash, cache quelques bonnes choses. 
+Elle n'est pas seulement capable de lire une valeur dans une variable, elle peut aussi lire un certain nombre de caractères en entrée. Si le paramètre -n est fourni, elle lit 'n' caractères de l'entrée fournie dans la variable et arrête la lecture. 
+Si le paramètre -s est spécifié, l'opération sera effectuée silencieusement même si l'entrée provient du terminal. Ces fonctionnalités supplémentaires de la commande 'read' peuvent simplifier considérablement notre script. 
+Surtout si vous savez comment utiliser correctement les caractères ESCAPE. Oui, 'correctement' ! 
+Comme vous pouvez le voir ci-dessous, 'ESC' n'est pas une fonction mais une variable qui contient déjà une valeur échappée. Si 'ESC' était une fonction, elle commencerait à s'exécuter lorsque le programme attend une valeur. Et nous ne ferions qu'observer un comportement étrange sans savoir ce qui ne va pas. 
+Ci-dessous, vous trouverez un script Bash simplifié, qui vous indiquera quelle touche fléchée a été pressée. La simplicité a aussi quelques inconvénients. 
+La commande 'read' peut réagir lentement et vous produirez des déchets à l'écran. Elle peut également ne pas répondre à vos attentes sur d'autres terminaux ou systèmes UNIX. Le script, aussi simple soit-il, vous permet de presser continuellement les touches fléchées et d'obtenir une information sur chaque touche pressée. 
+
+
+#!/bin/bash
+ESC=$(echo -en "\033")                     # define ESC
+while :;do                                 # infinite loop
+read -s -n3 key 2>/dev/null >&2            # read quietly three characters of served input
+  if [ "$key" = "$ESC[A" ];then echo up;fi # if A is the result, print up
+  if [ "$key" = "$ESC[B" ];then echo dn;fi #    B                      dn
+  if [ "$key" = "$ESC[C" ];then echo ri;fi #    C                      ri
+  if [ "$key" = "$ESC[D" ];then echo le;fi #    D                      le
+done
+
+Quelle est la prochaine étape ?
+Nous pouvons maintenant gérer notre curseur/les touches fléchées mais où est le menu ? 
+Eh bien, le voici. 
+Oui, je sais, cela ressemble plus à un arbre laid qu'à un programme fantaisiste. 
+Il ne contient aucune réelle clarté de programmation. 
+La seule chose qui fait qu'il vaut la peine d'être essayé, ce sont les seules 55 lignes. 
+On évite une centaine de lignes ou plus et de vous enlever tout enthousiasme avant même que vous ne commenciez. 
+
+Le programme est donc optimisé pour un nombre minimal de lignes et non pour une plus grande lisibilité. 
+De cette façon, vous pourrez peut-être essayer d'apporter quelques améliorations. 
+
+# !/bin/bash
+printf "\e[8;14;67t"
+      E='echo -e';e='echo -en';trap "R;exit" 2
+    ESC=$( $e "\e")
+   TPUT(){ $e "\e[${1};${2}H";}
+  CLEAR(){ $e "\ec";}
+  CIVIS(){ $e "\e[?25l";}
+   DRAW(){ $e "\e%@\e(0";}
+  WRITE(){ $e "\e(B";}
+   MARK(){ $e "\e[7m";}
+ UNMARK(){ $e "\e[27m";}
+      R(){ CLEAR ;stty sane;$e "\ec\e[25;16m\e[J";};
+   HEAD(){ DRAW
+           for each in $(seq 1 13);do
+           $E "   x                                                           x"
+           done
+           WRITE;MARK;TPUT 1 5
+           $E "                       MENU DU SCRIPT                      ";UNMARK;}
+           i=0; CLEAR; CIVIS;NULL=/dev/null
+   FOOT(){ MARK;TPUT 13 5
+           printf "                    CREE PAR LA CAPSULE                    ";UNMARK;}
+  ARROW(){ read -s -n3 key 2>/dev/null >&2
+           if [[ $key = $ESC[A ]];then echo up;fi
+           if [[ $key = $ESC[B ]];then echo dn;fi;}
+     M0(){ TPUT  4 20; $e "Informations de connexion";}
+     M1(){ TPUT  5 20; $e "Informations du réseau";}
+     M2(){ TPUT  6 20; $e "Informations des disk";}
+     M3(){ TPUT  7 20; $e "Informations du routage";}
+     M4(){ TPUT  8 20; $e "Effectuer les mises à jour";}
+     M5(){ TPUT  9 20; $e "Surveiller les ressources  ";}
+     M6(){ TPUT 10 20; $e "EXIT   ";}
+      LM=6
+   MENU(){ for each in $(seq 0 $LM);do M${each};done;}
+    POS(){ if [[ $cur == up ]];then ((i--));fi
+           if [[ $cur == dn ]];then ((i++));fi
+           if [[ $i -lt 0   ]];then i=$LM;fi
+           if [[ $i -gt $LM ]];then i=0;fi;}
+REFRESH(){ after=$((i+1)); before=$((i-1))
+           if [[ $before -lt 0  ]];then before=$LM;fi
+           if [[ $after -gt $LM ]];then after=0;fi
+           if [[ $j -lt $i      ]];then UNMARK;M$before;else UNMARK;M$after;fi
+           if [[ $after -eq 0 ]] || [ $before -eq $LM ];then
+           UNMARK; M$before; M$after;fi;j=$i;UNMARK;M$before;M$after;}
+   INIT(){ R;HEAD;FOOT;MENU;}
+     SC(){ REFRESH;MARK;$S;$b;cur=`ARROW`;}
+     ES(){ MARK;$e "ENTER = main menu ";$b;read;INIT;};INIT
+  while [[ "$O" != " " ]]; do case $i in
+        0) S=M0;SC;if [[ $cur == "" ]];then R;$e "\n$(w        )\n";ES;fi;;
+        1) S=M1;SC;if [[ $cur == "" ]];then R;$e "\n$(ifconfig )\n";ES;fi;;
+        2) S=M2;SC;if [[ $cur == "" ]];then R;$e "\n$(df -h    )\n";ES;fi;;
+        3) S=M3;SC;if [[ $cur == "" ]];then R;$e "\n$(route -n )\n";ES;fi;;
+        4) S=M4;SC;if [[ $cur == "" ]];then R;$e "\n$(bash ~/Bureau/script/./maj.sh )\n";ES;fi;;
+        5) S=M5;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal 'htop')\n";ES;fi;;
+        6) S=M6;SC;if [[ $cur == "" ]];then R;exit 0;fi;;
+ esac;POS;done
+
+
+Explicitons certaines sections/fonctions cruciales utilisées.
+printf "\e[8;14;67t"
+Vous permet de définir la taille du terminal dans lequel s'execute le script.
+Fonction HEAD
+Pour avoir au moins un cadre minimal autour de votre menu, la fonction personnalisée HEAD va dessiner une en-tête et des lignes latérales. Elle ne vous donnera pas un cadre exact, car cela prendrait quelques lignes supplémentaires de "codage vide". Vous obtiendrez une bordure gauche et droite. Comme vous l'avez déjà remarqué, certaines commandes sont séparées par trop d'espaces. Ces espaces sont responsables de la mise en page de votre programme. Donc ajustez-les comme vous le souhaitez.
+Fonction FOOT
+Pour que le cadre soit fermé, nous devons également ajouter quelque chose en bas. Il doit y avoir une courte description de l'utilisation ou une signature, comme vous pouvez le voir à l’execution. Dans les deux cas, les fonctions personnalisées MARK et UNMARK sont utilisées pour inverser les couleurs d'arrière-plan et d'avant-plan. Vous n'avez donc pas besoin de trop de "dessin".
+Fonction POSITION
+Cette fonction permet de localiser et de gérer les positions de sélection du menu. Sans cette fonction, vous obtiendrez une erreur si vous appuyez trop souvent sur les touches du curseur. Au lieu de cela, cette fonction vous donne un bel effet de rotation. Lorsque vous arrivez à la fin d'un menu, vous pouvez appuyer sur la touche de déplacement vers le bas une fois de plus et vous serez ramené au début. La même chose s'applique si vous allez dans une autre direction.
+Fonction REFRESH
+Pour éviter trop de rafraîchissement, on utilise un hack simple qui rafraîchira seulement les menus aux positions voisines. Sans cela, le plein écran pourrait avoir besoin d'être rafraîchi pour chacune de vos actions. Ce qu'il fait en fait est le suivant : pour chaque touche flèche vers le haut ou vers le bas, il "repeint" les options du menu de cette façon : définit la disposition normale pour les options devant et après l'option sélectionnée, peint l'option sélectionnée avec le schéma de couleurs inversé.
+Boucle 'while’
+À la fin du script, vous trouverez des lignes numérotées, où vous pourrez placer vos commandes ou même des fonctions. Si vous utilisez des fonctions personnalisées, elles doivent être définies au début du script. Vous pouvez aussi les appeler depuis un autre fichier de cette façon (également au début du script du menu) : 
+. /path/to/functions-file
+Le "point" doit être séparé du "slash". De cette façon, vous appellerez tous les paramètres personnalisés dans l'environnement actuel. 
+
+Comment l'étendre ?
+
+Si vous avez besoin d'ajouter des options de menu ou d'en supprimer certaines, vous devez ajuster certaines variables.
+Ce n'est pas très agréable, je l'admets, mais c'est faisable. 
+
+D'abord, vous devez trouver les lignes qui commencent par M0, M1, ... Ces lignes décrivent les valeurs des menus. 
+
+Ajoutez une ligne ici, augmentez un numéro de ligne 'TPUT' et entrez une description personnalisée. 
+
+Ajustez la variable 'LM', qui est juste un nombre de tous les menus. 
+
+Sous la boucle 'while', ajoutez une ligne supplémentaire et ajustez le numéro de départ '0-5)' et le numéro 'M0-5'. 
+
+Si vous ajoutez trop d'options, vous devrez également ajuster les options 'HEAD' et 'FOOT' pour 'TPUT'. 
+
+Et c'est tout.

@@ -1,0 +1,148 @@
+Meilleurs trucs Linux
+
+Via le terminal
+Cela signifie que toutes les commandes que vous trouverez ci-dessous,
+doivent être entrées dans un terminal.
+
+- Afficher l'aide de n'importe quelle commande :
+
+Taper " --help " en aval de la commande.
+ex : " cd --help "
+
+- La touche TAB :
+
+Taper le nom d'un utilitaire et frapper deux fois sur la touche TAB.
+Ceci permet ce que l'on appelle une autocompletion.
+ex : taper " cd " puis frapper deux fois la touche TAB
+
+- Le tiret du 6 " - " :
+
+Taper " cd - " pour revenir en arrière sur un répertoire.
+
+- Revenir au répertoire home :
+
+Taper " cd " 
+
+- Afficher l'historique des commandes tapées :
+
+Frapper la flèche du haut pour afficher chaque commande les unes après les autres.
+Frapper Ctrl + R pour rechercher par nom
+Taper " history "
+
+- Modifier l'affichage des commandes pour indiquer l'heure et le jour d'utilisation :
+
+De manière temporaire, sur la session en cours :
+Taper " export  HISTTIMEFORMAT='%x %T ' "
+
+Pour vérifier que la commande a correctement fonctionné, 
+taper " history "
+
+De manière définitive sur la session en cours :
+echo "export HISTTIMEFORMAT='%x %T '" >> ~/.bashrc
+
+De manière définitive sur toutes les sessions :
+Taper " echo "export HISTTIMEFORMAT='%x %T '" >> /etc/bash.bashrc " 
+
+Pour vérifier que la commande a correctement fonctionné, 
+maintenir les touches Ctrl + Alt et frapper la touche éffacement arrière.
+Une fois reconnecté à notre session, ouvrir un terminal et
+taper " history "
+
+- Lister l'intégralité d'un répertoire :
+
+Taper " ls " pour afficher les noms.
+Taper " l " pour afficher les types.
+Taper " ls -l " pour afficher les détails.
+Taper " ll " pour afficher l'intégralité des détails.
+
+- Enchainer plusieurs commandes en une seule ligne :
+
+Taper " ; " après chaque commande.
+Taper " && " après chaque commande (celles-ci ne s'executeront que si 
+les précédentes ont correctement fonctionné).
+
+- Défreezer le terminal :
+
+Frapper Ctrl + Q pour le sortir du freeze.
+Les freezes peuvent survenir lorsque l'on frappe Ctrl + S par exemple.
+
+- Déplacer le curseur en amont ou en aval de la commande :
+
+Frapper Ctrl + A pour déplacer le curseur en amont et
+Ctrl + E pour le déplacer en aval.
+
+- Effacer une ligne en cours :
+
+Ctrl + U pour effacer en amont
+Ctrl + K pour effacer en aval 
+
+- Lire un fichier texte depuis le terminal :
+
+Taper " less " en amont du nom de fichier.
+Frapper Ctrl + Z pour revenir à l'entrée.
+
+- Copier/coller depuis le terminal :
+
+Frapper Ctrl + Shift + C pour copier du texte sélectionné en amont.
+Frapper Ctrl + Shift + V pour copier du texte copié en amont.
+
+- Chiffrer un dossier :
+
+Visiter https://doc.ubuntu-fr.org/ecryptfs
+
+- Créer plusieurs répertoires et sous-répertoire en une seule commande :
+
+Pour créer un répertoire, 
+taper " mkdir " suivi du nom de dossier
+
+Pour créer plusieurs répertoires,
+taper " mkdir -p nom1 / nom2 / nom3 "
+
+Pour créer plusieurs sous-répertoires dans un seul dossier,
+taper " mkdir -p nom1/{sous_repertoire1,sous_repertoire2,sous_repertoire3,sous_repertoire4} "
+
+
+Pour créer plusieurs repertoires et sous-répertoires dans un seul dossier,
+taper " mkdir -p dir/{nom1/sous_repertoire1,nom2/sous_repertoire2,nom3/sous_repertoire3,nom4/sous_repertoire4} "
+
+- Rendre le terminal temporairement à la casse durant une session :
+
+Taper " stty iuclc olcuc "
+
+- Personnaliser les couleurs de son terminal :
+
+Créer une sauvegarde du fichier en tapant " cp .bashrc bashrc-bak "
+Taper " gedit ~/.bashrc "
+
+Le changement des couleurs se fait en modifiant les valeurs numériques entre crochets,
+voici le tableau des correspondances entre valeur numérique/couleur:
+Couleur	Texte	Arrière-Plan
+noir	    30	40
+rouge	    31	41
+vert	    32	42
+jaune	    33	43
+bleu	    34	44
+violet	    35	45
+bleu clair	36	46
+blanc	    37	47
+
+correspondances de la première valeur devant le code couleur:
+
+0: normal
+1: gras
+4: souligné
+7: fond
+9: barré
+
+pour faire des tests de rendu, l’utilisation de la commande export sera bien utile, exemple:
+
+" export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m' "
+
+user@host: souligné(4) et couleur rouge(31)
+~/$: normal(0) couleur violet(35)
+ce qui suit « : » couleur bleu(34) et gras(1)
+
+- Réparer un disque dur :
+
+Taper " fsck -p /dev/sdb1 "
+ 
