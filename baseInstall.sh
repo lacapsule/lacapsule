@@ -140,7 +140,7 @@ echo "             $(tput setaf 0)$(tput setab 9) Installation de Hardinfo $(tpu
 echo ""
 sleep 1 &&
 
-apt install hardinfo
+apt install hardinfo -y
 
 echo ""
 echo "                      ✅ OK ✅" &&

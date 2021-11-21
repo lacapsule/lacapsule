@@ -23,11 +23,11 @@ printf "\e[8;16;110t"
   ARROW(){ read -s -n3 key 2>/dev/null >&2
            if [[ $key = $ESC[A ]];then echo up;fi
            if [[ $key = $ESC[B ]];then echo dn;fi;}
-     M0(){ TPUT  4 16; $e " Benchmark du système       ";}
-     M1(){ TPUT  5 16; $e " Informations du réseau     ";}
+     M0(){ TPUT  4 16; $e " Effectuer les mises à jour ";}
+     M1(){ TPUT  5 16; $e " Installer les prérequis    ";}
      M2(){ TPUT  6 16; $e " Informations du système    ";}
      M3(){ TPUT  7 16; $e " Stress test du système     ";}
-     M4(){ TPUT  8 16; $e " Effectuer les mises à jour ";}
+     M4(){ TPUT  8 16; $e " Tester un site WEB         ";}
      M5(){ TPUT  9 16; $e " Surveiller les ressources  ";}
      M6(){ TPUT  10 16; $e " Installer les prérequis    ";}
      M7(){ TPUT  11 16; $e " Consulter le tutoriel      ";}
@@ -55,20 +55,20 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
      SC(){ REFRESH;MARK;$S;$b;cur=`ARROW`;}
      ES(){ MARK;$e " Touche Entrée = Retour au menu principal ";$b;read;INIT;};INIT
   while [[ "$O" != " " ]]; do case $i in
-        0) S=M0;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "sudo sysbench cpu --threads=4 run")\n";ES;fi;;
-        1) S=M1;SC;if [[ $cur == "" ]];then R;$e "\n$(ifconfig )\n";ES;fi;;
+        0) S=M0;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "./maj.sh")\n";ES;fi;;
+        1) S=M1;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./baseInstall.sh")\n";ES;fi;;
         2) S=M2;SC;if [[ $cur == "" ]];then R;$e "\n$(hardinfo    )\n";ES;fi;;
-        3) S=M3;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e  "sudo s-tui" )\n";ES;fi;;
-        4) S=M4;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e  "/home/$USER/lacapsule/./maj.sh")\n";ES;fi;;
+        3) S=M3;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "sudo s-tui" )\n";ES;fi;;
+        4) S=M4;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "./testweb.sh")\n";ES;fi;;
         5) S=M5;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "htop")\n";ES;fi;;
-        6) S=M6;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "/home/$USER/lacapsule/./baseInstall.sh")\n";ES;fi;;
-        7) S=M7;SC;if [[ $cur == "" ]];then R;$e "\n$(gedit "/home/$USER/lacapsule/tuto.txt")\n";ES;fi;;
+        6) S=M6;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./baseInstall.sh")\n";ES;fi;;
+        7) S=M7;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gedit tuto.txt)\n";ES;fi;;
         8) S=M8;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "sudo timeshift --create --comments "Dernière sauvegarde" --tags D")\n";ES;fi;;
-        9) S=M9;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "sudo /home/$USER/lacapsule/./iso.sh")\n";ES;fi;;
-        10) S=M10;SC;if [[ $cur == "" ]];then R;$e "\n$(gedit "/home/$USER/lacapsule/logiciel.sh")\n";ES;fi;;
-        11) S=M11;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "/home/$USER/lacapsule/./reseau.sh")\n";ES;fi;;
-        12) S=M12;SC;if [[ $cur == "" ]];then R;$e "\n$(gedit "/home/$USER/lacapsule/tuto_command.txt")\n";ES;fi;;
-        13) S=M13;SC;if [[ $cur == "" ]];then R;$e "\n$(w)\n";ES;fi;;
+        9) S=M9;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./iso.sh")\n";ES;fi;;
+        10) S=M10;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule &&  gedit logiciel.sh)\n";ES;fi;;
+        11) S=M11;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./reseau.sh")\n";ES;fi;;
+        12) S=M12;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gedit tuto_command.txt)\n";ES;fi;;
+        13) S=M13;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./dlweb.sh")\n";ES;fi;;
         14) S=M14;SC;if [[ $cur == "" ]];then R;$e "\n$(x-www-browser  https://lacapsule.org)\n";ES;fi;;
         15) S=M15;SC;if [[ $cur == "" ]];then R;exit 0;fi;;
  esac;POS;done

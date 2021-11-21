@@ -27,13 +27,14 @@ UNMARK(){ $e "\033[27m";}                        # Normaliser le texte de la lig
   DRAW(){ $e "\033%@";echo -en "\033(0";}        # Passer en mode "poubelle" pour pouvoir dessiner
  WRITE(){ $e "\033(B";}                          # Revenir à la normale (reset)
   BLUE(){ $e "\033c\033[0;1m\033[37;44m\033[J";} # Effacer l'écran, mettre le fond en bleu et la police en blanc
+  
 Le défi :
 Pour ne pas compliquer les choses, j'aimerais avoir un simple script qui réagisse aux touches fléchées. Mais comment convaincre les flèches de produire certaines actions dans la console Bash ? 
 
 Ce sont les touches qui permettent de se déplacer sur l'écran (principalement en avant et en arrière). 
 
 Une expérience très simple : 
-Si je tape simplement 'read' à l'invite de commande Bash et que j'appuie sur la touche 'entée', le curseur attendra que je saisisse quelque chose. 
+Si je tape simplement 'read' à l'invite de commande Bash et que j'appuie sur la touche 'entrée', le curseur attendra que je saisisse quelque chose. 
 Si je tape des lettres, elles apparaîtront comme des caractères normaux, mais si j'appuie sur une des touches fléchées, j'obtiendrai plus d'un caractère pour chaque touche fléchée appuyée :
 
 Flèche du haut :     	^[[A

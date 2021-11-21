@@ -49,14 +49,6 @@ echo " $(tput setaf 0)$(tput setab 9) Veuillez entrer votre mot de passe adminis
 echo ""
 sleep 1 &&
 
-sudo chown $USER /var/lib/dpkg && 
-sudo chown $USER /var/lib/apt/lists/lock &&
-sudo chown $USER /var/lib/apt/lists/ &&
-sudo chown $USER /var/cache/apt/pkgcache.bin &&  
-sudo chown $USER /var/cache/apt/srcpkgcache.bin && 
-sudo chown $USER /var/lib/dpkg/* && 
-sudo chown $USER /var/cache/apt/archives/* &&
-
 echo ""
 echo ""
 echo "                      ✅ OK ✅" &&
