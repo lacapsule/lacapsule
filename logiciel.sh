@@ -29,7 +29,7 @@ printf "\e[8;16;110t"
      M3(){ TPUT  7 16; $e " Stress test du système     ";}
      M4(){ TPUT  8 16; $e " Tester un site WEB         ";}
      M5(){ TPUT  9 16; $e " Surveiller les ressources  ";}
-     M6(){ TPUT  10 16; $e " Installer les prérequis    ";}
+     M6(){ TPUT  10 16; $e " Télécharger une vidéo Yt   ";}
      M7(){ TPUT  11 16; $e " Consulter le tutoriel      ";}
      M8(){ TPUT  4 68; $e " Effectuer une sauvegarde ";}
      M9(){ TPUT  5 68; $e " Créer un fichier iso     ";}
@@ -61,7 +61,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
         3) S=M3;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "sudo s-tui" )\n";ES;fi;;
         4) S=M4;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "./testweb.sh")\n";ES;fi;;
         5) S=M5;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "htop")\n";ES;fi;;
-        6) S=M6;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./baseInstall.sh")\n";ES;fi;;
+        6) S=M6;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./youtube.sh")\n";ES;fi;;
         7) S=M7;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gedit tuto.txt)\n";ES;fi;;
         8) S=M8;SC;if [[ $cur == "" ]];then R;$e "\n$(gnome-terminal -e "sudo timeshift --create --comments "Dernière sauvegarde" --tags D")\n";ES;fi;;
         9) S=M9;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e "./iso.sh")\n";ES;fi;;
