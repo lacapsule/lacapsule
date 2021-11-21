@@ -48,22 +48,50 @@ ________________________________________________________<br>
 
 ![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img.png)
 
-**Effectuer les mises à jour**
+**Effectuer les mises à jour**<br>
 Utilise le script *maj.sh* écrit par Adrien Ferron
 
-**Installer les prérequis**
+**Installer les prérequis**<br>
 Utilise le script *baseInstall.sh* écrit par Adrien Ferron
 
-**Informations du système**
+**Informations du système**<br>
 Utilise l'outil *hardinfo*
 
-**Stress test du système**
+**Stress test du système**<br>
 Utilise l'outil *s-tui*
 
-**Tester un site WEB**
+**Tester un site WEB**<br>
 Utilise le script *testweb.sh* écrit par Adrien Ferron
 
-**Surveiller les ressources**
+**Surveiller les ressources**<br>
 Utilise l'outil *htop*
 
-**
+**Télécharger une vidéo Yt**<br>
+Utilise le script *youtube.sh* écrit par Adrien Ferron
+
+**Consulter le tutoriel**<br>
+Utilise le document texte tuto.txt écrit par Adrien Ferron
+
+**EFfectuer une sauvegarde**<br>
+Utilise l'utilitaire *timeshift*
+
+**Créer un fichier iso**<br>
+Utilise l'utilitaire *distroshare-ubuntu-imager*
+
+**Modifier le script**<br>
+Utilise le script *logiciel.sh* écrit par Adrien Ferron
+
+**Surveiller le réseau**<br>
+Utilise l'utilitaire *wireshark*
+
+**Index des commandes**<br>
+Utilise le document texte *tuto_command.txt* écrit par Adrien Ferron
+
+**Télécharger tout le web**<br>
+Utilise le script *dlweb.sh* écrit par Adrien Ferron
+
+**Visiter La Capsule**<br>
+Utilise votre navigateur pour ouvrir le site web de La Capsule
+
+**Quitter le script**<br>
+Permet de quitter le script sans fermer le terminal
