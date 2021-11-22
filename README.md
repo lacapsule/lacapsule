@@ -140,7 +140,7 @@ Possibilités d'évolutions :
 - Permettre l'execution d'une machine virtuelle 
 - **Votre idée ici**
 
-Suivre l'évolution de notre nouveau site web (en cours de développement):
+Suivre l'évolution de notre nouveau site web (en cours de développement) :
 
 ★ https://lacapsule.bzh/ ★
 
