@@ -44,13 +44,14 @@ ou bien
 
 > sudo apt install gedit  
 
+*NB: Vous pouvez aussi utiliser l'éditeur de texte de votre choix*
 puis taper 
 
 > gedit ~/.bashrc 
 
 une fois l'installation terminée.
 Le fichier bashrc s'ouvre alors dans gedit.
-Vous pouvez descendre jusqu'au lignes contenant le mot alias en entête de ligne et ajouter la ligne suivante :
+Vous pouvez descendre jusqu'aux lignes contenant le mot "alias" en entête de ligne et ajouter la ligne suivante :
 
 > alias logi='cd / ; ~/lacapsule/./logiciel.sh'
 
