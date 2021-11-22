@@ -1,5 +1,5 @@
 # lacapsule
-Un script bash pour piloter son linux, télécharger des ressources sur le web et effectuer des sauvegardes
+Un script bash pour piloter son linux, le mettre à jour, télécharger des ressources sur le web, ajouter des fonctionnalités et effectuer des sauvegardes ou créer un fichier iso.
 
 Pour l'utiliser, aucune installation n'est nécessaire.<br>
 ________________________________________<br>
