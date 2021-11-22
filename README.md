@@ -77,52 +77,52 @@ _________________________________________<br>
 ![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
 
 ➤ **Effectuer les mises à jour**<br>
-Utilise le script *maj.sh* écrit par Adrien Ferron
+*Utilise le script *maj.sh* écrit par Adrien Ferron*
 
 ➤ **Installer les prérequis**<br>
-Utilise le script *baseInstall.sh* écrit par Adrien Ferron
+*Utilise le script *baseInstall.sh* écrit par Adrien Ferron*
 
 ➤ **Informations du système**<br>
-Utilise l'outil *hardinfo*
+*Utilise l'outil *hardinfo**
 
 ➤ **Stress test du système**<br>
-Utilise l'outil *s-tui*
+*Utilise l'outil *s-tui**
 
 ➤ **Tester un site WEB**<br>
-Utilise le script *testweb.sh* écrit par Adrien Ferron
+*Utilise le script *testweb.sh* écrit par Adrien Ferron*
 
 ➤ **Surveiller les ressources**<br>
-Utilise l'outil *htop*
+*Utilise l'outil *htop**
 
 ➤ **Télécharger une vidéo Yt**<br>
-Utilise le script *youtube.sh* écrit par Adrien Ferron
+*Utilise le script *youtube.sh* écrit par Adrien Ferron*
 
 ➤ **Consulter le tutoriel**<br>
-Utilise le document texte tuto.txt écrit par Adrien Ferron
+*Utilise le document texte tuto.txt écrit par Adrien Ferron*
 
 ➤ **EFfectuer une sauvegarde**<br>
-Utilise l'utilitaire *timeshift*
+*Utilise l'utilitaire *timeshift**
 
 ➤ **Créer un fichier iso**<br>
-Utilise l'utilitaire *distroshare-ubuntu-imager*
+*Utilise l'utilitaire *distroshare-ubuntu-imager**
 
 ➤ **Modifier le script**<br>
-Utilise le script *logiciel.sh* écrit par Adrien Ferron
+*Utilise le script *logiciel.sh* écrit par Adrien Ferron*
 
 ➤ **Surveiller le réseau**<br>
-Utilise l'utilitaire *wireshark*
+*Utilise l'utilitaire *wireshark**
 
 ➤ **Index des commandes**<br>
-Utilise le document texte *tuto_command.txt* écrit par Adrien Ferron
+*Utilise le document texte *tuto_command.txt* écrit par Adrien Ferron*
 
 ➤ **Télécharger tout le web**<br>
-Utilise le script *dlweb.sh* écrit par Adrien Ferron
+*Utilise le script *dlweb.sh* écrit par Adrien Ferron*
 
 ➤ **Visiter La Capsule**<br>
-Utilise votre navigateur pour ouvrir le site web de La Capsule
+*Utilise votre navigateur pour ouvrir le site web de La Capsule*
 
 ➤ **Quitter le script**<br>
-Permet de quitter le script sans fermer le terminal<br><br>
+*Permet de quitter le script sans fermer le terminal*<br><br>
 ___________________________<br>
 ׀ 𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝙀𝙍 𝘼𝙐 𝙋𝙍𝙊𝙅𝙀𝙏 ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
