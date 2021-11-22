@@ -21,7 +21,10 @@ Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /h
 
 𝗨𝗻𝗲 𝗳𝗼𝗶𝘀 𝗳𝗮𝗶𝘁, 𝗽𝗿𝗲𝗻𝗲𝘇 𝗹𝗲𝘀 𝗱𝗿𝗼𝗶𝘁𝘀 𝗱'𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝘀𝘂𝗿 𝘁𝗼𝘂𝘀 𝗹𝗲𝘀 𝗳𝗶𝗰𝗵𝗶𝗲𝗿𝘀 𝗰𝗼𝗻𝘁𝗲𝗻𝘂𝘀 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 : 
 
-`sudo chmod +x -R lacapsule`
+<pre><code>
+sudo chmod +x -R lacapsule
+
+</code></pre>
 
 Autre méthode :
 
@@ -29,11 +32,17 @@ Par GIT :
 
 Ouvrir un terminal et taper :
 
-`cd home/$USER`
+<pre><code>
+cd home/$USER
+
+</code></pre>
 
 Puis taper :
 
-`git clone https://github.com/lacapsule/lacapsule.git` 
+<pre><code>
+git clone https://github.com/lacapsule/lacapsule.git
+
+</code></pre>
 
 Le dossier se trouve à présent dans votre dossier utilisateur.<br><br>
 ___________________________________<br>
@@ -42,7 +51,10 @@ ___________________________________<br>
 
 𝗟𝗮𝗻𝗰𝗲𝗿 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲 𝘀𝘂𝗶𝘃𝗮𝗻𝘁𝗲 (𝘃𝗶𝗮 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹) : 
 
-`./logiciel.sh` 
+<pre><code>
+./logiciel.sh
+
+</code></pre>
 
 > *NB: vous pouvez très bien :* 
 - 𝗱𝗼𝘂𝗯𝗹𝗲-𝗰𝗹𝗶𝗾𝘂𝗲𝗿 𝘀𝘂𝗿 *"𝗹𝗼𝗴𝗶𝗰𝗶𝗲𝗹.𝘀𝗵"* 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 *"𝗹𝗮𝗰𝗮𝗽𝘀𝘂𝗹𝗲"* 𝗲𝘁 𝗰𝗵𝗼𝗶𝘀𝗶𝗿 *"𝗼𝘂𝘃𝗿𝗶𝗿 𝗱𝗮𝗻𝘀 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹"*
@@ -51,29 +63,41 @@ ou bien
 
 - créer un alias en installant gedit via la commande : 
 
-`sudo apt install gedit`  
+<pre><code>
+sudo apt install gedit
+
+</code></pre>
 
 > *NB: Vous pouvez aussi utiliser l'éditeur de texte de votre choix*
 puis taper 
 
-`gedit ~/.bashrc` 
+<pre><code>
+gedit ~/.bashrc
+
+</code></pre>
 
 une fois l'installation terminée.
 Le fichier bashrc s'ouvre alors dans gedit.
 Vous pouvez descendre jusqu'aux lignes contenant le mot "alias" en entête de ligne et ajouter la ligne suivante :
 
-`alias logi='cd / ; ~/lacapsule/./logiciel.sh'`
+<pre><code>
+alias logi='cd / ; ~/lacapsule/./logiciel.sh'
 
-Une fois la ligne ajoutée, enregistrez le fichier, ouvrez un nouvel onglet du terminal ou un nouveau terminl et tapez 
+</code></pre>
 
-`logi` 
+Une fois la ligne ajoutée, enregistrer le fichier, ouvrir un nouvel onglet du terminal ou un nouveau terminal et taper :
 
-puis frappez la touche entrée le script s'ouvrira <br><br>
+<pre><code>
+logi
+
+</code></pre>
+
+puis frapper la touche entrée pour lancer l'execution du script <br><br>
 _________________________________________<br>
 ׀ 𝗟𝗘𝗦 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧𝗘𝗦 𝗙𝗢𝗡𝗖𝗧𝗜𝗢𝗡𝗡𝗔𝗟𝗜𝗧𝗘𝗦 ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
-![Le menu e`imag`e](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
+![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
 
 ➤ **Effectuer les mises à jour**<br>
 *Ut lise le script *maj sh* écrit par Adrien Ferron*
