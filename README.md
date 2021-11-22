@@ -1,4 +1,8 @@
 # 𝙡𝙖𝙘𝙖𝙥𝙨𝙪𝙡𝙚
+<br>
+________________________<br>
+׀ 𝗤𝗨'𝗘𝗦𝗧-𝗖𝗘 𝗤𝗨𝗘 𝗖'𝗘𝗦𝗧 ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 𝗨𝗻 𝘀𝗰𝗿𝗶𝗽𝘁 𝗯𝗮𝘀𝗵 𝗽𝗼𝘂𝗿 𝗽𝗶𝗹𝗼𝘁𝗲𝗿 𝘀𝗼𝗻 𝗹𝗶𝗻𝘂𝘅 : 
 - Le mettre à jour (Par APT)                               *(mise à jour et purge)*
 - Télécharger des ressources sur le web                    *(sites web complets, vidéos Youtube...)*
@@ -6,10 +10,10 @@
 - Effectuer des sauvegardes                                *(Timeshift, création de fichiers ISO...)*
 - *Work in progress, do not disturb*
 
-𝗣𝗼𝘂𝗿 𝗹'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿, 𝗮𝘂𝗰𝘂𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 n'est nécessaire.<br>
+𝗣𝗼𝘂𝗿 𝗹'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿, 𝗮𝘂𝗰𝘂𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 n'est nécessaire.<br><br>
 _______________________________<br>
-׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙇𝙀 𝙏𝙀𝙇𝙀𝘾𝙃𝘼𝙍𝙂𝙀𝙍  ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
+׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙇𝙀 𝙏𝙀𝙇𝙀𝘾𝙃𝘼𝙍𝙂𝙀𝙍 ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
 Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /home 
 
@@ -31,10 +35,10 @@ Puis taper :
 
 > git clone https://github.com/lacapsule/lacapsule.git 
 
-Le dossier se trouve à présent dans votre dossier utilisateur.<br>
+Le dossier se trouve à présent dans votre dossier utilisateur.<br><br>
 ___________________________________<br>
 ׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙀𝙓𝙀𝘾𝙐𝙏𝙀𝙍 𝙇𝙀 𝙎𝘾𝙍𝙄𝙋𝙏  ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
 𝗟𝗮𝗻𝗰𝗲𝗿 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲 𝘀𝘂𝗶𝘃𝗮𝗻𝘁𝗲 (𝘃𝗶𝗮 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹) : 
 
@@ -65,57 +69,62 @@ Une fois la ligne ajoutée, enregistrez le fichier, ouvrez un nouvel onglet du t
 > logi 
 
 puis frappez la touche entrée,
-le script s'ouvrira.<br>
+le script s'ouvrira.<br><br>
 _________________________________________<br>
-׀ 	𝗟𝗘𝗦 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧𝗘𝗦 𝗙𝗢𝗡𝗖𝗧𝗜𝗢𝗡𝗡𝗔𝗟𝗜𝗧𝗘𝗦  ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
+׀ 𝗟𝗘𝗦 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧𝗘𝗦 𝗙𝗢𝗡𝗖𝗧𝗜𝗢𝗡𝗡𝗔𝗟𝗜𝗧𝗘𝗦 ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
 ![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
 
-**Effectuer les mises à jour**<br>
+➤ **Effectuer les mises à jour**<br>
 Utilise le script *maj.sh* écrit par Adrien Ferron
 
-**Installer les prérequis**<br>
+➤ **Installer les prérequis**<br>
 Utilise le script *baseInstall.sh* écrit par Adrien Ferron
 
-**Informations du système**<br>
+➤ **Informations du système**<br>
 Utilise l'outil *hardinfo*
 
-**Stress test du système**<br>
+➤ **Stress test du système**<br>
 Utilise l'outil *s-tui*
 
-**Tester un site WEB**<br>
+➤ **Tester un site WEB**<br>
 Utilise le script *testweb.sh* écrit par Adrien Ferron
 
-**Surveiller les ressources**<br>
+➤ **Surveiller les ressources**<br>
 Utilise l'outil *htop*
 
-**Télécharger une vidéo Yt**<br>
+➤ **Télécharger une vidéo Yt**<br>
 Utilise le script *youtube.sh* écrit par Adrien Ferron
 
-**Consulter le tutoriel**<br>
+➤ **Consulter le tutoriel**<br>
 Utilise le document texte tuto.txt écrit par Adrien Ferron
 
-**EFfectuer une sauvegarde**<br>
+➤ **EFfectuer une sauvegarde**<br>
 Utilise l'utilitaire *timeshift*
 
-**Créer un fichier iso**<br>
+➤ **Créer un fichier iso**<br>
 Utilise l'utilitaire *distroshare-ubuntu-imager*
 
-**Modifier le script**<br>
+➤ **Modifier le script**<br>
 Utilise le script *logiciel.sh* écrit par Adrien Ferron
 
-**Surveiller le réseau**<br>
+➤ **Surveiller le réseau**<br>
 Utilise l'utilitaire *wireshark*
 
-**Index des commandes**<br>
+➤ **Index des commandes**<br>
 Utilise le document texte *tuto_command.txt* écrit par Adrien Ferron
 
-**Télécharger tout le web**<br>
+➤ **Télécharger tout le web**<br>
 Utilise le script *dlweb.sh* écrit par Adrien Ferron
 
-**Visiter La Capsule**<br>
+➤ **Visiter La Capsule**<br>
 Utilise votre navigateur pour ouvrir le site web de La Capsule
 
-**Quitter le script**<br>
-Permet de quitter le script sans fermer le terminal
+➤ **Quitter le script**<br>
+Permet de quitter le script sans fermer le terminal<br><br>
+___________________________<br>
+׀ 𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝙀𝙍 𝘼𝙐 𝙋𝙍𝙊𝙅𝙀𝙏 ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+
+
