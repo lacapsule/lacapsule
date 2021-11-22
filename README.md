@@ -126,5 +126,22 @@ Permet de quitter le script sans fermer le terminal<br><br>
 ___________________________<br>
 ׀ 𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝙀𝙍 𝘼𝙐 𝙋𝙍𝙊𝙅𝙀𝙏 ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+Pour toutes questions, nous contacter via le formulaire de contact de notre site web :
 
+★ https://lacapsule.org/php/contact.php ★
 
+Pour participer, faire évoluer le script, n'hésitez pas à nous envoyer des suggestions :
+
+Possibilités d'évolutions :
+
+- Créer la version Debian
+- Créer la version ARCH
+- Traduire le script dans plusieurs langues
+- Permettre l'execution d'une machine virtuelle 
+- **Votre idée ici**
+
+Suivre l'évolution de notre nouveau site web (en cours de développement):
+
+★ https://lacapsule.bzh/ ★
+
+Code source disponible ici ➔ https://github.com/lacapsule/V3
