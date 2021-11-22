@@ -6,10 +6,10 @@
 - Effectuer des sauvegardes                                *(Timeshift, création de fichiers ISO...)*
 - *Work in progress, do not disturb*
 
-Pour l'utiliser, aucune installation n'est nécessaire.<br>
-________________________________________<br>
-׀ ＣＯＭＭＥＮＴ ＬＥ ＴＥＬＥＣＨＡＲＧＥＲ ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
+𝗣𝗼𝘂𝗿 𝗹'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿, 𝗮𝘂𝗰𝘂𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 n'est nécessaire.<br>
+_______________________________<br>
+׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙇𝙀 𝙏𝙀𝙇𝙀𝘾𝙃𝘼𝙍𝙂𝙀𝙍  ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
 
 Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /home 
 
@@ -30,9 +30,9 @@ Puis taper :
 > git clone https://github.com/lacapsule/lacapsule.git 
 
 Le dossier se trouve à présent dans votre dossier utilisateur.<br>
-______________________________________________<br>
-׀ ＣＯＭＭＥＮＴ ＥＸＥＣＵＴＥＲ ＬＥ ＳＣＲＩＰＴ ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
+___________________________________<br>
+׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙀𝙓𝙀𝘾𝙐𝙏𝙀𝙍 𝙇𝙀 𝙎𝘾𝙍𝙄𝙋𝙏  ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
 
 𝗟𝗮𝗻𝗰𝗲𝗿 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲 𝘀𝘂𝗶𝘃𝗮𝗻𝘁𝗲 (𝘃𝗶𝗮 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹) : 
 
@@ -64,9 +64,9 @@ Une fois la ligne ajoutée, enregistrez le fichier, ouvrez un nouvel onglet du t
 
 puis frappez la touche entrée,
 le script s'ouvrira.<br>
-________________________________________________________<br>
-׀ 	ＬＥＳ ＤＩＦＦＥＲＥＮＴＥＳ ＦＯＮＣＴＩＯＮＮＡＬＩＴＥＳ  ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
+_________________________________________<br>
+׀ 	𝗟𝗘𝗦 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧𝗘𝗦 𝗙𝗢𝗡𝗖𝗧𝗜𝗢𝗡𝗡𝗔𝗟𝗜𝗧𝗘𝗦  ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
 
 ![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img.png)
 
