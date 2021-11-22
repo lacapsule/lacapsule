@@ -3,12 +3,12 @@
 ________________________<br>
 ׀ 𝗤𝗨'𝗘𝗦𝗧-𝗖𝗘 𝗤𝗨𝗘 𝗖'𝗘𝗦𝗧 ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
-𝗨𝗻 𝘀𝗰𝗿𝗶𝗽𝘁 𝗯𝗮𝘀𝗵 𝗽𝗼𝘂𝗿 𝗽𝗶𝗹𝗼𝘁𝗲𝗿 𝘀𝗼𝗻 𝗹𝗶𝗻𝘂𝘅 : 
-- Le mettre à jour (Par APT)                               *(mise à jour et purge)*
-- Télécharger des ressources sur le web                    *(sites web complets, vidéos Youtube...)*
-- Ajouter des fonctionnalités d'administration             *(Monitoring système, Réseau, stress test...)*  
-- Effectuer des sauvegardes                                *(Timeshift, création de fichiers ISO...)*
-- *Work in progress, do not disturb*
+𝗨𝗻 𝘀𝗰𝗿𝗶𝗽𝘁 𝗯𝗮𝘀𝗵 𝗽𝗼𝘂𝗿 𝗽𝗶𝗹𝗼𝘁𝗲𝗿 𝘀𝗼𝗻 𝗹𝗶𝗻𝘂𝘅 : <br><br>
+- Le mettre à jour (Par APT)                               *(mise à jour et purge)*<br>
+- Télécharger des ressources sur le web                    *(sites web complets, vidéos Youtube...)*<br>
+- Ajouter des fonctionnalités d'administration             *(Monitoring système, Réseau, stress test...)*<br>  
+- Effectuer des sauvegardes                                *(Timeshift, création de fichiers ISO...)*<br>
+- *Work in progress, do not disturb*<br><br>
 
 𝗣𝗼𝘂𝗿 𝗹'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿, 𝗮𝘂𝗰𝘂𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 n'est nécessaire.<br><br>
 _______________________________<br>
@@ -45,7 +45,7 @@ ___________________________________<br>
 > ./logiciel.sh 
 
 NB: vous pouvez très bien : 
-- 𝗱𝗼𝘂𝗯𝗹𝗲-𝗰𝗹𝗶𝗾𝘂𝗲𝗿 𝘀𝘂𝗿 𝗹𝗼𝗴𝗶𝗰𝗶𝗲𝗹.𝘀𝗵 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 𝗹𝗮𝗰𝗮𝗽𝘀𝘂𝗹𝗲 𝗲𝘁 𝗰𝗵𝗼𝗶𝘀𝗶𝗿 *𝗼𝘂𝘃𝗿𝗶𝗿 𝗱𝗮𝗻𝘀 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹*
+- 𝗱𝗼𝘂𝗯𝗹𝗲-𝗰𝗹𝗶𝗾𝘂𝗲𝗿 𝘀𝘂𝗿 *"𝗹𝗼𝗴𝗶𝗰𝗶𝗲𝗹.𝘀𝗵"* 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 *"𝗹𝗮𝗰𝗮𝗽𝘀𝘂𝗹𝗲"* 𝗲𝘁 𝗰𝗵𝗼𝗶𝘀𝗶𝗿 *"𝗼𝘂𝘃𝗿𝗶𝗿 𝗱𝗮𝗻𝘀 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹"*
  
 ou bien
 
