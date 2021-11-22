@@ -1,9 +1,9 @@
-# lacapsule
-Un script bash pour piloter son linux :
-- Le mettre à jour 
-- Télécharger des ressources sur le web (sites web complets, vidéos Youtube...)
-- Ajouter des fonctionnalités d'administration (Monitoring système, Réseau, stress test...)  
-- Effectuer des sauvegardes (Timeshift, création de fichiers ISO...)
+# 𝙡𝙖𝙘𝙖𝙥𝙨𝙪𝙡𝙚
+𝗨𝗻 𝘀𝗰𝗿𝗶𝗽𝘁 𝗯𝗮𝘀𝗵 𝗽𝗼𝘂𝗿 𝗽𝗶𝗹𝗼𝘁𝗲𝗿 𝘀𝗼𝗻 𝗹𝗶𝗻𝘂𝘅 : 
+- Le mettre à jour (Par APT)                               *(mise à jour et purge)*
+- Télécharger des ressources sur le web                    *(sites web complets, vidéos Youtube...)*
+- Ajouter des fonctionnalités d'administration             *(Monitoring système, Réseau, stress test...)*  
+- Effectuer des sauvegardes                                *(Timeshift, création de fichiers ISO...)*
 - *Work in progress, do not disturb*
 
 Pour l'utiliser, aucune installation n'est nécessaire.<br>
@@ -13,7 +13,7 @@ ________________________________________<br>
 
 Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /home 
 
-Une fois fait, prenez les droits d'execution sur tous les fichiers contenus dans le dossier :
+𝗨𝗻𝗲 𝗳𝗼𝗶𝘀 𝗳𝗮𝗶𝘁, 𝗽𝗿𝗲𝗻𝗲𝘇 𝗹𝗲𝘀 𝗱𝗿𝗼𝗶𝘁𝘀 𝗱'𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝘀𝘂𝗿 𝘁𝗼𝘂𝘀 𝗹𝗲𝘀 𝗳𝗶𝗰𝗵𝗶𝗲𝗿𝘀 𝗰𝗼𝗻𝘁𝗲𝗻𝘂𝘀 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 : 
 
 > sudo chmod +x -R lacapsule
 
@@ -34,14 +34,12 @@ ______________________________________________<br>
 ׀ ＣＯＭＭＥＮＴ ＥＸＥＣＵＴＥＲ ＬＥ ＳＣＲＩＰＴ ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
 
-Lancer la commande suivante (via un terminal) : 
+𝗟𝗮𝗻𝗰𝗲𝗿 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲 𝘀𝘂𝗶𝘃𝗮𝗻𝘁𝗲 (𝘃𝗶𝗮 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹) : 
 
 > ./logiciel.sh 
 
-dans un terminal.
-
 NB: vous pouvez très bien : 
-- double-cliquer sur logiciel.sh dans le dossier lacapsule et choisir "ouvrir dans un terminal" 
+- 𝗱𝗼𝘂𝗯𝗹𝗲-𝗰𝗹𝗶𝗾𝘂𝗲𝗿 𝘀𝘂𝗿 𝗹𝗼𝗴𝗶𝗰𝗶𝗲𝗹.𝘀𝗵 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 𝗹𝗮𝗰𝗮𝗽𝘀𝘂𝗹𝗲 𝗲𝘁 𝗰𝗵𝗼𝗶𝘀𝗶𝗿 "𝗼𝘂𝘃𝗿𝗶𝗿 𝗱𝗮𝗻𝘀 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹"
  
 ou bien
 
