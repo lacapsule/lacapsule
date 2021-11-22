@@ -11,7 +11,13 @@ Par GIT :
 
 Autre méthode :
 
-Télécharger le fichier ZIP, le décompresser sur votre /home et lancer : 
+Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /home 
+
+Une fois fait, prenez les droits d'execution sur tous les fichiers contenus dans le dossier :
+
+> cd home && sudo chmod +x -R lacapsule
+
+Lancer la commande suivante (via un terminal) : 
 
 > ./logiciel.sh 
 
