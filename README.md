@@ -5,17 +5,29 @@ Pour l'utiliser, aucune installation n'est nécessaire.<br>
 ________________________________________<br>
 ׀ ＣＯＭＭＥＮＴ ＬＥ ＴＥＬＥＣＨＡＲＧＥＲ ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
-Par GIT :
-
-> git clone https://github.com/lacapsule/lacapsule.git
-
-Autre méthode :
 
 Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /home 
 
 Une fois fait, prenez les droits d'execution sur tous les fichiers contenus dans le dossier :
 
-> cd home && sudo chmod +x -R lacapsule
+> sudo chmod +x -R lacapsule
+
+Autre méthode :
+
+Par GIT :
+
+Ouvrir un terminal et taper :
+
+> cd home/$USER
+
+Puis taper :
+
+> git clone https://github.com/lacapsule/lacapsule.git 
+
+Le dossier se trouve à présent dans votre dossier utilisateur.<br>
+______________________________________________<br>
+׀ ＣＯＭＭＥＮＴ ＥＸＥＣＵＴＥＲ ＬＥ ＳＣＲＩＰＴ ׀ <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br>
 
 Lancer la commande suivante (via un terminal) : 
 
