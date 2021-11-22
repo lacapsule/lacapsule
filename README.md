@@ -4,11 +4,11 @@ ________________________<br>
 ׀ 𝗤𝗨'𝗘𝗦𝗧-𝗖𝗘 𝗤𝗨𝗘 𝗖'𝗘𝗦𝗧 ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 𝗨𝗻 𝘀𝗰𝗿𝗶𝗽𝘁 𝗯𝗮𝘀𝗵 𝗽𝗼𝘂𝗿 𝗽𝗶𝗹𝗼𝘁𝗲𝗿 𝘀𝗼𝗻 𝗹𝗶𝗻𝘂𝘅 : <br><br>
-- Le mettre à jour (Par APT)                               *(mise à jour et purge)*<br>
-- Télécharger des ressources sur le web                    *(sites web complets, vidéos Youtube...)*<br>
-- Ajouter des fonctionnalités d'administration             *(Monitoring système, Réseau, stress test...)*<br>  
-- Effectuer des sauvegardes                                *(Timeshift, création de fichiers ISO...)*<br>
-- *Work in progress, do not disturb*<br><br>
+- Le mettre à jour (Par APT)                                ׀ (mise à jour et purge)<br>
+- Télécharger des ressources sur le web                     ׀ (sites web complets, vidéos Youtube...)<br>
+- Ajouter des fonctionnalités d'administration              ׀ (Monitoring système, Réseau, stress test...)<br>  
+- Effectuer des sauvegardes                                 ׀ (Timeshift, création de fichiers ISO...)<br>
+- Work in progress <br><br>
 
 𝗣𝗼𝘂𝗿 𝗹'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿, 𝗮𝘂𝗰𝘂𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 n'est nécessaire.<br><br>
 _______________________________<br>
@@ -21,7 +21,7 @@ Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /h
 
 𝗨𝗻𝗲 𝗳𝗼𝗶𝘀 𝗳𝗮𝗶𝘁, 𝗽𝗿𝗲𝗻𝗲𝘇 𝗹𝗲𝘀 𝗱𝗿𝗼𝗶𝘁𝘀 𝗱'𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝘀𝘂𝗿 𝘁𝗼𝘂𝘀 𝗹𝗲𝘀 𝗳𝗶𝗰𝗵𝗶𝗲𝗿𝘀 𝗰𝗼𝗻𝘁𝗲𝗻𝘂𝘀 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 : 
 
-> sudo chmod +x -R lacapsule
+`sudo chmod +x -R lacapsule`
 
 Autre méthode :
 
@@ -29,11 +29,11 @@ Par GIT :
 
 Ouvrir un terminal et taper :
 
-> cd home/$USER
+`cd home/$USER`
 
 Puis taper :
 
-> git clone https://github.com/lacapsule/lacapsule.git 
+`git clone https://github.com/lacapsule/lacapsule.git` 
 
 Le dossier se trouve à présent dans votre dossier utilisateur.<br><br>
 ___________________________________<br>
@@ -42,42 +42,41 @@ ___________________________________<br>
 
 𝗟𝗮𝗻𝗰𝗲𝗿 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲 𝘀𝘂𝗶𝘃𝗮𝗻𝘁𝗲 (𝘃𝗶𝗮 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹) : 
 
-> ./logiciel.sh 
+`./logiciel.sh` 
 
-NB: vous pouvez très bien : 
+> *NB: vous pouvez très bien :* 
 - 𝗱𝗼𝘂𝗯𝗹𝗲-𝗰𝗹𝗶𝗾𝘂𝗲𝗿 𝘀𝘂𝗿 *"𝗹𝗼𝗴𝗶𝗰𝗶𝗲𝗹.𝘀𝗵"* 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 *"𝗹𝗮𝗰𝗮𝗽𝘀𝘂𝗹𝗲"* 𝗲𝘁 𝗰𝗵𝗼𝗶𝘀𝗶𝗿 *"𝗼𝘂𝘃𝗿𝗶𝗿 𝗱𝗮𝗻𝘀 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹"*
  
 ou bien
 
 - créer un alias en installant gedit via la commande : 
 
-> sudo apt install gedit  
+`sudo apt install gedit`  
 
-*NB: Vous pouvez aussi utiliser l'éditeur de texte de votre choix*
+> *NB: Vous pouvez aussi utiliser l'éditeur de texte de votre choix*
 puis taper 
 
-> gedit ~/.bashrc 
+`gedit ~/.bashrc` 
 
 une fois l'installation terminée.
 Le fichier bashrc s'ouvre alors dans gedit.
 Vous pouvez descendre jusqu'aux lignes contenant le mot "alias" en entête de ligne et ajouter la ligne suivante :
 
-> alias logi='cd / ; ~/lacapsule/./logiciel.sh'
+`alias logi='cd / ; ~/lacapsule/./logiciel.sh'`
 
-Une fois la ligne ajoutée, enregistrez le fichier, ouvrez un nouvel onglet du terminal ou un nouveau terminal et tapez 
+Une fois la ligne ajoutée, enregistrez le fichier, ouvrez un nouvel onglet du terminal ou un nouveau terminl et tapez 
 
-> logi 
+`logi` 
 
-puis frappez la touche entrée,
-le script s'ouvrira.<br><br>
+puis frappez la touche entrée le script s'ouvrira <br><br>
 _________________________________________<br>
 ׀ 𝗟𝗘𝗦 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧𝗘𝗦 𝗙𝗢𝗡𝗖𝗧𝗜𝗢𝗡𝗡𝗔𝗟𝗜𝗧𝗘𝗦 ׀ <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
-![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
+![Le menu e`imag`e](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
 
 ➤ **Effectuer les mises à jour**<br>
-*Utilise le script *maj.sh* écrit par Adrien Ferron*
+*Ut lise le script *maj sh* écrit par Adrien Ferron*
 
 ➤ **Installer les prérequis**<br>
 *Utilise le script *baseInstall.sh* écrit par Adrien Ferron*
