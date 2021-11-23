@@ -1,8 +1,7 @@
 # 𝙡𝙖𝙘𝙖𝙥𝙨𝙪𝙡𝙚
 <br>
-________________________<br>
-׀ 𝗤𝗨'𝗘𝗦𝗧-𝗖𝗘 𝗤𝗨𝗘 𝗖'𝗘𝗦𝗧 ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+ 𝙌𝙐'𝙀𝙎𝙏-𝘾𝙀 𝙌𝙐𝙀 𝘾'𝙀𝙎𝙏  <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 𝗨𝗻 𝘀𝗰𝗿𝗶𝗽𝘁 𝗯𝗮𝘀𝗵 𝗽𝗼𝘂𝗿 𝗽𝗶𝗹𝗼𝘁𝗲𝗿 𝘀𝗼𝗻 𝗹𝗶𝗻𝘂𝘅 : <br><br>
 - Le mettre à jour (Par APT)                                ׀ (mise à jour et purge)<br>
 - Télécharger des ressources sur le web                     ׀ (sites web complets, vidéos Youtube...)<br>
@@ -11,11 +10,14 @@ ________________________<br>
 - Work in progress <br><br>
 
 𝗣𝗼𝘂𝗿 𝗹'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿, 𝗮𝘂𝗰𝘂𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 n'est nécessaire.<br><br>
-_______________________________<br>
-׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙇𝙀 𝙏𝙀𝙇𝙀𝘾𝙃𝘼𝙍𝙂𝙀𝙍 ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
-Télécharger le fichier ZIP via le bouton code et le décompresser sur votre /home 
+ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙇𝙀 𝙏𝙀𝙇𝙀𝘾𝙃𝘼𝙍𝙂𝙀𝙍  <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+**Méthode n°1**<br>
+ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
+**⌦ Télécharger le dossier ZIP :**
+
+via le bouton code et le décompresser sur votre /home 
 
 ![Le bouton "code" en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img2.png)
 
@@ -26,9 +28,9 @@ sudo chmod +x -R lacapsule
 
 </code></pre>
 
-Autre méthode :
-
-Par GIT :
+**Méthode n°2**<br>
+ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
+**⌦ Cloner le dépôt GIT :**
 
 Ouvrir un terminal et taper :
 
@@ -45,9 +47,9 @@ git clone https://github.com/lacapsule/lacapsule.git
 </code></pre>
 
 Le dossier se trouve à présent dans votre dossier utilisateur.<br><br>
-___________________________________<br>
-׀ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙀𝙓𝙀𝘾𝙐𝙏𝙀𝙍 𝙇𝙀 𝙎𝘾𝙍𝙄𝙋𝙏  ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+
+ 𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙀𝙓𝙀𝘾𝙐𝙏𝙀𝙍 𝙇𝙀 𝙎𝘾𝙍𝙄𝙋𝙏  <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
 𝗟𝗮𝗻𝗰𝗲𝗿 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲 𝘀𝘂𝗶𝘃𝗮𝗻𝘁𝗲 (𝘃𝗶𝗮 𝘂𝗻 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹) : 
 
@@ -93,9 +95,9 @@ logi
 </code></pre>
 
 puis frapper la touche entrée pour lancer l'execution du script <br><br>
-_________________________________________<br>
-׀ 𝗟𝗘𝗦 𝗗𝗜𝗙𝗙𝗘𝗥𝗘𝗡𝗧𝗘𝗦 𝗙𝗢𝗡𝗖𝗧𝗜𝗢𝗡𝗡𝗔𝗟𝗜𝗧𝗘𝗦 ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+
+ 𝙇𝙀𝙎 𝘿𝙄𝙁𝙁𝙀𝙍𝙀𝙉𝙏𝙀𝙎 𝙁𝙊𝙉𝘾𝙏𝙄𝙊𝙉𝙉𝘼𝙇𝙄𝙏𝙀𝙎  <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 
 ![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
 
@@ -146,9 +148,9 @@ _________________________________________<br>
 
 ➤ **Quitter le script**<br>
 *Permet de quitter le script sans fermer le terminal*<br><br>
-___________________________<br>
-׀ 𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝙀𝙍 𝘼𝙐 𝙋𝙍𝙊𝙅𝙀𝙏 ׀ <br>
-̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
+
+ 𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝙀𝙍 𝘼𝙐 𝙋𝙍𝙊𝙅𝙀𝙏  <br>
+̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 Pour toutes questions, nous contacter via le formulaire de contact de notre site web :
 
 ★ https://lacapsule.org/php/contact.php ★
