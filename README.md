@@ -15,7 +15,7 @@
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 **Méthode n°1**<br>
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
-**⌦ Télécharger le dossier ZIP :**
+**█ Télécharger le dossier ZIP :**
 
 via le bouton code et le décompresser sur votre /home 
 
@@ -30,7 +30,7 @@ sudo chmod +x -R lacapsule
 
 **Méthode n°2**<br>
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
-**⌦ Cloner le dépôt GIT :**
+**█ Cloner le dépôt GIT :**
 
 Ouvrir un terminal et taper :
 
