@@ -100,7 +100,7 @@ _________________________________________<br>
 ![Le menu en image](https://raw.githubusercontent.com/lacapsule/lacapsule/main/img/img.png)
 
 ➤ **Effectuer les mises à jour**<br>
-*Ut lise le script *maj sh* écrit par Adrien Ferron*
+*Utilise le script *maj sh* écrit par Adrien Ferron*
 
 ➤ **Installer les prérequis**<br>
 *Utilise le script *baseInstall.sh* écrit par Adrien Ferron*
