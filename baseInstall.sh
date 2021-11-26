@@ -182,6 +182,17 @@ echo "                      ✅ OK ✅" &&
 sleep 0.5 &&
 
 echo ""
+echo "             $(tput setaf 0)$(tput setab 9) Installation de Nikto $(tput sgr0)" &&
+echo ""
+sleep 1 &&
+
+apt install nikto -y
+
+echo ""
+echo "                      ✅ OK ✅" &&
+sleep 0.5 &&
+
+echo ""
 echo "            $(tput setaf 0)$(tput setab 9) Installation de Distroshare $(tput sgr0)" &&
 echo ""
 sleep 1 &&
