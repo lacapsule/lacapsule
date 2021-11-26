@@ -32,6 +32,13 @@ sudo chmod +x -R lacapsule
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
 **█ Cloner le dépôt GIT :**
 
+Installer GIT sur votre machine :
+
+<pre><code>
+sudo apt install git
+
+</code></pre>
+
 Ouvrir un terminal et taper :
 
 <pre><code>
