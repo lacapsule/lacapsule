@@ -40,7 +40,7 @@ echo ""
 echo "         $(tput setaf 0)$(tput setab 9) Début du script d'installation... $(tput sgr0)" &&
 sleep 1 &&
 
-sudo chown $USER /var/lib/dpkg/lock-frontend &&
+sudo chown $USER -R /var/lib/dpkg/*
 
 echo ""
 echo "        $(tput setaf 0)$(tput setab 9) Mise à jour de la liste des paquets $(tput sgr0)" &&
