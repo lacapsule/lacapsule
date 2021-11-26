@@ -56,7 +56,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
      ES(){ MARK;$e " Touche Entrée = Retour au menu principal ";$b;read;INIT;};INIT
   while [[ "$O" != " " ]]; do case $i in
         0) S=M0;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "./maj.sh")\n";ES;fi;;
-        1) S=M1;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && xterm -e "./baseInstall.sh")\n";ES;fi;;
+        1) S=M1;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && sudo apt install gnome-terminal && cd ~/lacapsule && xterm -e "./baseInstall.sh")\n";ES;fi;;
         2) S=M2;SC;if [[ $cur == "" ]];then R;$e "\n$(hardinfo    )\n";ES;fi;;
         3) S=M3;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "sudo s-tui" )\n";ES;fi;;
         4) S=M4;SC;if [[ $cur == "" ]];then R;$e "\n$(cd / && cd ~/lacapsule && gnome-terminal -e  "./testweb.sh")\n";ES;fi;;
