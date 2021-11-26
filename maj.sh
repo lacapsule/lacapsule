@@ -44,6 +44,8 @@ echo "  $(tput setaf 0)$(tput setab 9) Obtention des droits sur les fichiers vé
 echo ""
 sleep 1 &&
 
+sudo chown $USER /var/lib/dpkg/lock-frontend &&
+
 echo ""
 echo " $(tput setaf 0)$(tput setab 9) Veuillez entrer votre mot de passe administrateur $(tput sgr0)" &&
 echo ""
