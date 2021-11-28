@@ -40,17 +40,17 @@ echo ""
 echo "         $(tput setaf 0)$(tput setab 9) Début du script d'installation... $(tput sgr0)" &&
 sleep 1 &&
 
-sudo chown $USER -R /var/lib/dpkg/*
-
-echo ""
-echo "        $(tput setaf 0)$(tput setab 9) Mise à jour de la liste des paquets $(tput sgr0)" &&
-sleep 1 &&
-
 echo ""
 echo ""
 echo ""
 echo " $(tput setaf 0)$(tput setab 9) Veuillez entrer votre mot de passe administrateur $(tput sgr0)" &&
 echo ""
+sleep 1 &&
+
+sudo chown $USER -R /var/lib/dpkg/*
+
+echo ""
+echo "        $(tput setaf 0)$(tput setab 9) Mise à jour de la liste des paquets $(tput sgr0)" &&
 sleep 1 &&
 
 sudo apt update
@@ -87,6 +87,17 @@ echo ""
 sleep 1 &&
 
 apt install git -y
+
+echo ""
+echo "                      ✅ OK ✅" &&
+sleep 0.5 &&
+
+echo ""
+echo "     $(tput setaf 0)$(tput setab 9)      Installation du terminal gnome       $(tput sgr0)" &&
+echo ""
+sleep 1 &&
+
+apt install gnome-terminal -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -173,7 +184,7 @@ echo "                      ✅ OK ✅" &&
 sleep 0.5 &&
 
 echo ""
-echo "             $(tput setaf 0)$(tput setab 9) Installation de Nikto $(tput sgr0)" &&
+echo "              $(tput setaf 0)$(tput setab 9) Installation de Nikto $(tput sgr0)" &&
 echo ""
 sleep 1 &&
 
