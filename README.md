@@ -18,7 +18,7 @@
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
 **█ Utiliser le script d'installation :**
 
-En le téléchargeant ici --> https://github.com/lacapsule/installationScript.git
+En le téléchargeant ici --> https://github.com/lacapsule/installationScript.git <br><br>
 
 **Méthode n°2**<br>
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
