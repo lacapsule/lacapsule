@@ -13,7 +13,14 @@
 
  𝘾𝙊𝙈𝙈𝙀𝙉𝙏 𝙇𝙀 𝙏𝙀𝙇𝙀𝘾𝙃𝘼𝙍𝙂𝙀𝙍  <br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
-**Méthode n°1**<br>
+
+**Méthode n°2**<br>
+ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
+**█ Utiliser le script d'installation :**
+
+En le téléchargeant ici --> https://github.com/lacapsule/installationScript.git
+
+**Méthode n°2**<br>
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
 **█ Télécharger le dossier ZIP :**
 
@@ -28,7 +35,7 @@ sudo chmod +x -R lacapsule
 
 </code></pre>
 
-**Méthode n°2**<br>
+**Méthode n°3**<br>
  ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅  <br>
 **█ Cloner le dépôt GIT :**
 
