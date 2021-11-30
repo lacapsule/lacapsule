@@ -48,6 +48,7 @@ echo ""
 sleep 1 &&
 
 sudo chown $USER -R /var/lib/dpkg/*
+sudo chown $USER -R /var/cache/apt/*
 
 echo ""
 echo "        $(tput setaf 0)$(tput setab 9) Mise à jour de la liste des paquets $(tput sgr0)" &&

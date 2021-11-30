@@ -50,6 +50,7 @@ echo ""
 sleep 1 &&
 
 sudo chown $USER -R /var/lib/dpkg/*
+sudo chown $USER -R /var/cache/apt/*
 
 echo ""
 echo ""
