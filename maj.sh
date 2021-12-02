@@ -63,7 +63,7 @@ sleep 1 &&
 
 echo "" &&
 
-apt --fix-broken install &&
+sudo apt --fix-broken install &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -74,7 +74,7 @@ echo "       $(tput setaf 0)$(tput setab 9) Autocomplétion des fichiers manquan
 echo ""
 sleep 1 &&
 
-apt --fix-missing install &&
+sudo apt --fix-missing install &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -85,7 +85,7 @@ echo "          $(tput setaf 0)$(tput setab 9) Chargement des nouveaux paquets $
 echo ""
 sleep 1 &&
  
-apt update &&
+sudo apt update &&
 
 echo "" 
 echo "                      ✅ OK ✅" &&
@@ -96,7 +96,7 @@ echo "$(tput setaf 0)$(tput setab 9) Téléchargement et installation des nouvea
 echo ""
 sleep 1 &&
 
-apt upgrade -y &&
+sudo apt upgrade -y &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -107,18 +107,7 @@ echo "             $(tput setaf 0)$(tput setab 9) Mise à niveau du système $(t
 echo ""
 sleep 1 &&
 
-apt full-upgrade -y &&
-
-echo ""
-echo "                      ✅ OK ✅" &&
-sleep 0.5 &&
-
-echo "" 
-echo "             $(tput setaf 0)$(tput setab 9) Mise à jour de Linux Mint $(tput sgr0)" &&
-echo ""
-sleep 1 &&
-
-mintupdate-cli upgrade -r -y &&
+sudo apt full-upgrade -y &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -153,7 +142,7 @@ echo "         $(tput setaf 0)$(tput setab 9) Nettoyage du système de fichiers 
 echo "           "
 sleep 1 &&
 
-apt autoclean -y &&
+sudo apt autoclean -y &&
 
 echo ""
 echo ""
@@ -165,7 +154,7 @@ echo "         $(tput setaf 0)$(tput setab 9) Suppression des fichiers inutiles 
 echo ""
 sleep 1 &&
 
-apt autoremove -y &&
+sudo apt autoremove -y &&
 
 echo ""
 echo ""

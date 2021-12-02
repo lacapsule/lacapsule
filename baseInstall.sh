@@ -76,7 +76,7 @@ echo "          $(tput setaf 0)$(tput setab 9) Installation de l'éditeur GEDIT 
 echo ""
 sleep 1 &&
 
-apt install gedit -y
+sudo apt install gedit -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -87,7 +87,7 @@ echo "     $(tput setaf 0)$(tput setab 9) Installation de l'outil de versioning 
 echo ""
 sleep 1 &&
 
-apt install git -y
+sudo apt install git -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -98,7 +98,7 @@ echo "     $(tput setaf 0)$(tput setab 9)      Installation du terminal gnome   
 echo ""
 sleep 1 &&
 
-apt install gnome-terminal -y
+sudo apt install gnome-terminal -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -109,7 +109,7 @@ echo "     $(tput setaf 0)$(tput setab 9) Installation de l'outil de monitoring 
 echo ""
 sleep 1 &&
 
-apt install htop -y
+sudo apt install htop -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -120,8 +120,8 @@ echo "           $(tput setaf 0)$(tput setab 9) Installation des dependances $(t
 echo ""
 sleep 1 &&
 
-apt install software-properties-common -y &&
-add-apt-repository ppa:wireshark-dev/stable -y &&
+sudo apt install software-properties-common -y &&
+sudo add-apt-repository ppa:wireshark-dev/stable -y &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -132,7 +132,7 @@ echo "            $(tput setaf 0)$(tput setab 9) Installation de Wireshark $(tpu
 echo ""
 sleep 1 &&
  
-apt install wireshark -y &&
+sudo apt install wireshark -y &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -156,7 +156,7 @@ echo "             $(tput setaf 0)$(tput setab 9) Installation de Hardinfo $(tpu
 echo ""
 sleep 1 &&
 
-apt install hardinfo -y
+sudo apt install hardinfo -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -167,7 +167,7 @@ echo "             $(tput setaf 0)$(tput setab 9) Installation de Sysbench $(tpu
 echo ""
 sleep 1 &&
 
-apt install sysbench -y
+sudo apt install sysbench -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -178,7 +178,7 @@ echo "              $(tput setaf 0)$(tput setab 9) Installation de S-Tui $(tput 
 echo ""
 sleep 1 &&
 
-apt install s-tui stress -y
+sudo apt install s-tui stress -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
@@ -189,7 +189,7 @@ echo "              $(tput setaf 0)$(tput setab 9) Installation de Nikto $(tput 
 echo ""
 sleep 1 &&
 
-apt install nikto -y
+sudo apt install nikto -y
 
 echo ""
 echo "                      ✅ OK ✅" &&
