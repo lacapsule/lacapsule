@@ -48,6 +48,7 @@ echo -n " -----> " && read
 echo "           "
 cd / &&
 
+cd ~/Vidéos &&
 sudo youtube-dl $REPLY
 
 echo ""

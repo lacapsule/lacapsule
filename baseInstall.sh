@@ -143,6 +143,7 @@ echo "            $(tput setaf 0)$(tput setab 9) Installation de Youtube-dl $(tp
 echo ""
 sleep 1 &&
 
+sudo apt install python &&
 sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl &&
 sudo chmod a+rx /usr/local/bin/youtube-dl &&
 sudo -H pip install --upgrade youtube-dl &&
