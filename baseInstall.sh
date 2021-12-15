@@ -105,6 +105,17 @@ echo "                      ✅ OK ✅" &&
 sleep 0.5 &&
 
 echo ""
+echo "     $(tput setaf 0)$(tput setab 9)        Installation de timeshift        $(tput sgr0)" &&
+echo ""
+sleep 1 &&
+
+sudo apt install timeshift -y
+
+echo ""
+echo "                      ✅ OK ✅" &&
+sleep 0.5 &&
+
+echo ""
 echo "     $(tput setaf 0)$(tput setab 9) Installation de l'outil de monitoring HTOP $(tput sgr0)" &&
 echo ""
 sleep 1 &&
