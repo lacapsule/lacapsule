@@ -23,7 +23,7 @@ En le téléchargeant ici --> https://github.com/lacapsule/installationScript.gi
 𝗨𝗻𝗲 𝗳𝗼𝗶𝘀 𝗳𝗮𝗶𝘁, 𝗽𝗿𝗲𝗻𝗲𝘇 𝗹𝗲𝘀 𝗱𝗿𝗼𝗶𝘁𝘀 𝗱'𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝘀𝘂𝗿 𝘁𝗼𝘂𝘀 𝗹𝗲𝘀 𝗳𝗶𝗰𝗵𝗶𝗲𝗿𝘀 𝗰𝗼𝗻𝘁𝗲𝗻𝘂𝘀 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗱𝗼𝘀𝘀𝗶𝗲𝗿 : 
 
 <pre><code>
-sudo chmod +x osout.sh
+sudo chmod +x install_lacapsule.sh
 
 </code></pre>
 
