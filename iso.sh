@@ -53,8 +53,8 @@ echo " $(tput setaf 0)$(tput setab 9) Veuillez entrer votre mot de passe adminis
 echo ""
 sleep 1 &&
 
-cd ~/distroshare-ubuntu-imager &&
-sudo ./distroshare-ubuntu-imager.sh
+cd ~/linux-live &&
+sudo ./build
 
 echo ""
 echo "                      ✅ OK ✅" &&
