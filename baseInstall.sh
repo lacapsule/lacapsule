@@ -208,12 +208,12 @@ echo "                      ✅ OK ✅" &&
 sleep 0.5 &&
 
 echo ""
-echo "            $(tput setaf 0)$(tput setab 9) Installation de Distroshare $(tput sgr0)" &&
+echo "            $(tput setaf 0)$(tput setab 9) Installation de Linux-live $(tput sgr0)" &&
 echo ""
 sleep 1 &&
 
-cd /home/$USER/ &&
-sudo git clone https://github.com/Distroshare/distroshare-ubuntu-imager.git &&
+cd ~/lacapsule &&
+sudo git clone https://github.com/lacapsule/linux-live.git &&
 
 echo ""
 echo "                      ✅ OK ✅" &&
