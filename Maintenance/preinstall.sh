@@ -186,6 +186,20 @@ echo ""
 echo "                      ✅ OK ✅" &&
 sleep 0.5 &&
 echo ""
+
+
+echo ""
+echo "             $(tput setaf 0)$(tput setab 9) Installation de skdump $(tput sgr0)" &&
+echo ""
+sleep 1 &&
+
+sudo apt install libatasmart-bin -y
+
+echo ""
+echo "                      ✅ OK ✅" &&
+sleep 0.5 &&
+echo ""
+
 echo "               $(tput setaf 0)$(tput setab 9) Installation de ACPI $(tput sgr0)" &&
 echo ""
 sleep 1 &&
