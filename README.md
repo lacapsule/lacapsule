@@ -178,7 +178,7 @@ puis frapper la touche entrée pour lancer l'execution du script <br><br>
 ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ <br><br>
 Pour toutes questions, nous contacter via le formulaire de contact de notre site web :
 
-★ https://lacapsule.org/php/contact.php ★
+★ https://lacapsule.org/contact.html ★
 
 Pour participer, faire évoluer le script, n'hésitez pas à nous envoyer des suggestions :
 
@@ -192,6 +192,6 @@ Possibilités d'évolutions :
 
 Suivre l'évolution de notre nouveau site web (en cours de développement) :
 
-★ https://lacapsule.bzh/ ★
+★ https://lacapsule.org ★
 
 Code source disponible ici ➔ https://github.com/lacapsule/V3
